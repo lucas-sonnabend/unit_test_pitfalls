@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mocking_example"
+version = "0.1.0"
+description = ""
+authors = ["Lucas Sonnabend <lucas.sonnabend@cantab.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pytest = "^6.2.5"
+starlette = "^0.16.0"
+requests = "^2.26.0"
+pytest-asyncio = "^0.15.1"
+requests-mock = "^1.9.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
